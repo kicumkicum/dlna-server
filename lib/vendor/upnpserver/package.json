@@ -1,27 +1,31 @@
 {
-  "_from": "upnpserver",
+  "_args": [
+    [
+      "upnpserver@3.0.2",
+      "/home/oleg/Projects/rest/dlna-server"
+    ]
+  ],
+  "_from": "upnpserver@3.0.2",
   "_id": "upnpserver@3.0.2",
   "_inBundle": false,
   "_integrity": "sha1-brutANhgQjxPHJKxtxdJCzc3eCM=",
   "_location": "/upnpserver",
   "_phantomChildren": {},
   "_requested": {
-    "type": "tag",
+    "type": "version",
     "registry": true,
-    "raw": "upnpserver",
+    "raw": "upnpserver@3.0.2",
     "name": "upnpserver",
     "escapedName": "upnpserver",
-    "rawSpec": "",
+    "rawSpec": "3.0.2",
     "saveSpec": null,
-    "fetchSpec": "latest"
+    "fetchSpec": "3.0.2"
   },
   "_requiredBy": [
-    "#USER",
     "/"
   ],
   "_resolved": "https://registry.npmjs.org/upnpserver/-/upnpserver-3.0.2.tgz",
-  "_shasum": "6ebbad00d860423c4f1c92b1b717490b37377823",
-  "_spec": "upnpserver",
+  "_spec": "3.0.2",
   "_where": "/home/oleg/Projects/rest/dlna-server",
   "author": {
     "name": "Olivier Oeuillot"
@@ -29,7 +33,6 @@
   "bugs": {
     "url": "https://github.com/oeuillot/upnpserver/issues"
   },
-  "bundleDependencies": false,
   "dependencies": {
     "async": "latest",
     "debug": "latest",
@@ -54,7 +57,6 @@
     "status": "latest",
     "uuid": "^3.0.0"
   },
-  "deprecated": false,
   "description": "Simple Upnpserver server. It supports several audio tags (id3,...) and matroska metadatas.",
   "devDependencies": {
     "jshint": "^2.6.0",

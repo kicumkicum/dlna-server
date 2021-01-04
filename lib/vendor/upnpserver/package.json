@@ -1,0 +1,88 @@
+{
+  "_from": "upnpserver",
+  "_id": "upnpserver@3.0.2",
+  "_inBundle": false,
+  "_integrity": "sha1-brutANhgQjxPHJKxtxdJCzc3eCM=",
+  "_location": "/upnpserver",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "upnpserver",
+    "name": "upnpserver",
+    "escapedName": "upnpserver",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/upnpserver/-/upnpserver-3.0.2.tgz",
+  "_shasum": "6ebbad00d860423c4f1c92b1b717490b37377823",
+  "_spec": "upnpserver",
+  "_where": "/home/oleg/Projects/rest/dlna-server",
+  "author": {
+    "name": "Olivier Oeuillot"
+  },
+  "bugs": {
+    "url": "https://github.com/oeuillot/upnpserver/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "async": "latest",
+    "debug": "latest",
+    "exif": "latest",
+    "follow-redirects": "0.0.3",
+    "gm": "^1.21.1",
+    "ip": "0.3",
+    "jstoxml": "0.2",
+    "matroska": "2.2.2",
+    "mime": "1.2",
+    "mkdirp": "latest",
+    "mongodb": "^2.1.3",
+    "moviedb": "^0.2.2",
+    "musicmetadata": "^2.0.2",
+    "nedb": "^1.5.0",
+    "node-ssdp": "^2.7.0",
+    "omdb-client": "^1.0.6",
+    "range-parser": "^1.0.3",
+    "request": "^2.69.0",
+    "sax": "0.4.2",
+    "send": "0.13",
+    "status": "latest",
+    "uuid": "^3.0.0"
+  },
+  "deprecated": false,
+  "description": "Simple Upnpserver server. It supports several audio tags (id3,...) and matroska metadatas.",
+  "devDependencies": {
+    "jshint": "^2.6.0",
+    "mocha": "~2.1.0"
+  },
+  "engines": {
+    "node": ">=5.0.0"
+  },
+  "homepage": "https://github.com/oeuillot/upnpserver#readme",
+  "keywords": [
+    "Node.js",
+    "ushare",
+    "mediatomb",
+    "upnp"
+  ],
+  "license": "GPL",
+  "main": "api.js",
+  "name": "upnpserver",
+  "optionalDependencies": {
+    "mongodb": "^2.1.3",
+    "nedb": "^1.5.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/oeuillot/upnpserver.git"
+  },
+  "scripts": {
+    "test": "jshint lib/"
+  },
+  "version": "3.0.2"
+}

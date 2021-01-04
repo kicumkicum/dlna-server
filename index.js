@@ -1,6 +1,9 @@
-var Server = require("upnpserver");
+var Server = require("./lib/vendor/upnpserver");
 
 var server = new Server({
+    upnpClasses: {
+        "object.item.videoItem": "./lib/class/object.item.videoItem",
+    },
     "contentProviders": [{
         "protocol": "https",
         "type": "http"

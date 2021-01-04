@@ -1,4 +1,4 @@
-const Virtual = require('./node_modules/upnpserver/lib/repositories/virtual');
+const Virtual = require('./lib/vendor/upnpserver/lib/repositories/virtual');
 const Node = require('./node_modules/upnpserver/lib/node')
 const Url = require('./node_modules/upnpserver/lib/util/url')
 const CPHttp = require('./node_modules/upnpserver/lib/contentProviders/http')
